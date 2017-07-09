@@ -15,7 +15,7 @@ include('inc/header.php');
         <article>
             <header>
                 <h1>Welcome to the home page!</h1>
-                <p>You are at <?php echo $_SERVER['REQUEST_URI']; ?></p>
+                <p>You are at <?php echo $_SERVER['SCRIPT_NAME']; ?></p>
             </header>
             <section>
                 <h2>This file includes a headr and a footer.</h2>
